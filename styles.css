@@ -48,3 +48,34 @@ footer {
   font-family: 'Indie Flower', cursive;
 
 }
+
+a{
+  text-decoration: none;
+}
+
+.btn {
+  background: #4ECCA3;
+  background-image: -webkit-linear-gradient(top, #4ECCA3, #393E46);
+  background-image: -moz-linear-gradient(top, #4ECCA3, #393E46);
+  background-image: -ms-linear-gradient(top, #4ECCA3, #393E46);
+  background-image: -o-linear-gradient(top, #4ECCA3, #393E46);
+  background-image: linear-gradient(to bottom, #4ECCA3, #393E46);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Georgia;
+  color: #241c24;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #ff0000;
+  background-image: -webkit-linear-gradient(top, #ff0000, #db0000);
+  background-image: -moz-linear-gradient(top, #ff0000, #db0000);
+  background-image: -ms-linear-gradient(top, #ff0000, #db0000);
+  background-image: -o-linear-gradient(top, #ff0000, #db0000);
+  background-image: linear-gradient(to bottom, #ff0000, #db0000);
+  text-decoration: none;
+}
