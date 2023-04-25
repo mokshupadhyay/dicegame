@@ -49,6 +49,14 @@ footer {
 
 }
 
+button{
+  margin: 50px 0 0 38.4rem;
+  font-size: 2rem;
+  width: 200px;
+  height: 100px;
+  background-color: red;
+}
+
 a{
   text-decoration: none;
 }
