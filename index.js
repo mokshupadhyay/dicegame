@@ -15,10 +15,10 @@ var image1 = document.querySelectorAll("img")[1] ;
 image1.setAttribute("src",randomDiceImage2);
 
 if (randomnumber1 > randomnumber2) {
-    document.querySelector("h1").innerHTML=(" 🏆Player1 Wins!🏆");   
+    document.querySelector("h1").innerHTML=("🏆Player1 Wins!");   
 }
 else if (randomnumber1 < randomnumber2) {
-    document.querySelector("h1").innerHTML=(" 🏆Player2 Wins!🏆");   
+    document.querySelector("h1").innerHTML=("Player2 Wins!🏆");   
 }
 else{
     document.querySelector("h1").innerHTML=("Draw");   
